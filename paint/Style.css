@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+    height: 30px;
+    background: rgba(23,21,21,0.50);
+    border: 1px orangered solid;
+    border-radius: 20px;
+}
+.line{
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    width: 130px;
+    height: 4px;
+    border-radius: 5px;
+    background: orangered;
+}
+.circ{
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+#rang{
+    position: absolute;
+    top: 78vh;
+    left: 0;
+    height: 22vh;
+    width: 20px;
+    background: black;
+}
+.btn{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+    font-size: 32px;
+    width: 100px;
+    border-radius: 20%;
+    background: rgba(0, 14, 255, 0.5);
+    transition: .5s;
+}
+.btn:hover{
+    background-color: rgba(63,74,241,0.5);
+}
+.btn1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    height: 12px;
+    width: 30px;
+    border-radius: 20%;
+    background: rgba(0, 15, 255, 0.4);
+    transition: 1s;
+}
+.btn1:hover{
+    background: rgb(0, 16, 255);
+
+}
+.box{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    /*width: 400px;*/
+    /*height: 100vh;*/
+}
+.input{
+    position: absolute;
+    width: 75px;
+    font-size: 16px;
+    padding: 5px;
+}
+#width{
+    top: 10px;
+    left: 290px;
+}
+#height{
+    top: 10px;
+    left: 370px;
+}
+#ok{
+    left: 460px;
+}
+#easer{
+    left: 10px;
+    top: 50px;
+}
+#canvas{
+    border: 2px black dashed;
+}
